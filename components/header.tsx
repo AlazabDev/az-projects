@@ -61,6 +61,12 @@ export function Header() {
         {/* CTA */}
         <div className="hidden items-center gap-6 md:flex">
           <Link
+            href="/admin/sign-in"
+            className="px-4 py-2 text-sm font-medium transition-all text-muted-foreground hover:text-foreground"
+          >
+            Admin
+          </Link>
+          <Link
             href="#reserve"
             className="px-4 py-2 text-sm font-medium transition-all rounded-full bg-foreground text-background hover:opacity-80"
           >
